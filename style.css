@@ -1,0 +1,123 @@
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: opp;
+    src: url(Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: oppp;
+    src: url(Poppins-Medium.ttf);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container1 {
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav {
+    display: flex;
+    margin-left: 70px;
+}
+
+.nav-text h1 {
+    font-size: 30px;
+    font-family: opp;
+    font-size: 22px;
+    margin-top: 22px;
+    color: rgb(1, 238, 255);
+}
+
+.nav-text p {
+    font-size: 13px;
+    position: relative;
+    top: -25px;
+    font-family: opp;
+    font-size: 10px;
+    opacity: 50%;
+    color: white;
+}
+
+.nav-control {
+    margin-left: 260px;
+    margin-top: 30px;
+}
+
+.nav-control a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    font-family: oppp;
+    font-size: 14px;
+    opacity: 75%;
+}
+
+.nav-log {
+    margin-left: 260px;
+    margin-top: 30px;
+}
+
+.nav-log a {
+    text-decoration: none;
+    color: white;
+    border: solid 1px white;
+    padding: 4px 14px;
+    border-radius: 6px;
+    font-family: oppp;
+    font-size: 14px;
+}
+
+.nav-control a:hover {
+    opacity: 100%;
+    border-bottom: solid 1px white;
+}
+
+/* a:target .nav-control {
+    opacity: 100%;
+    background: rebeccapurple;
+} */
+
+.body-header {
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
+
+.body-header h1 {
+    font-family: oppp;
+    font-size: 55px;
+    line-height: 1.4;
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+.body-header p {
+    font-family: poppins;
+    font-size: 13px;
+    letter-spacing: 0.9px;
+    position: relative;
+    top: -24px;
+    color: white;
+}
+
+.body-header a {
+    text-decoration: none;
+    font-family: opp;
+    color: white;
+    background-color: orange;
+    padding: 8px 22px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.body-header a:hover {
+    background-color: rgb(248, 162, 3);
+}
